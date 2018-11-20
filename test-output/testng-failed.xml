@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="20" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="20" name="Test10(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="TA48"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test10(failed) -->
+  <test thread-count="20" name="Test4(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="TA15"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test thread-count="20" name="Test14(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="TA52"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test14(failed) -->
+  <test thread-count="20" name="Test7(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="TA45"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test7(failed) -->
+  <test thread-count="20" name="Test3(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="TA42"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test4" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="20" name="Test6(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="TA44"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test6(failed) -->
+  <test thread-count="20" name="Test15(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="TA53"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test15(failed) -->
+  <test thread-count="20" name="Test12(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="TA50"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test12(failed) -->
+  <test thread-count="20" name="Test1(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="DASHBOARD"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="20" name="Test9(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="TA47"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test9(failed) -->
+  <test thread-count="20" name="Test8(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="TA46"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test8(failed) -->
+  <test thread-count="20" name="Test2(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="TA41"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="20" name="Test13(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="TA51"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test13(failed) -->
+  <test thread-count="20" name="Test5(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123@"/>
+    <parameter name="username" value="TA43"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test thread-count="20" name="Test11(failed)" parallel="tests">
+    <parameter name="password" value="Tigo123!"/>
+    <parameter name="username" value="TA49"/>
+    <classes>
+      <class name="login_multiuser.MultiUser_Test">
+        <methods>
+          <include name="login_test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_multiuser.MultiUser_Test -->
+    </classes>
+  </test> <!-- Test11(failed) -->
+</suite> <!-- Failed suite [Suite] -->

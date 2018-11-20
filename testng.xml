@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="20" parallel="tests">
+	<test name="Test1" parallel="tests" thread-count="10">
+		<parameter name="username" value="DASHBOARD"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test1" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test4" parallel="tests" thread-count="10">
+		<parameter name="username" value="TA15"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test2" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2" parallel="tests" thread-count="10">
+		<parameter name="username" value="TA41"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test3" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test3" parallel="tests" thread-count="10">
+		<parameter name="username" value="TA42"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test4" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test5">
+	<parameter name="username" value="TA43"></parameter>
+	<parameter name="password" value="Tigo123@"></parameter>
+	<classes>
+		<class name="login_multiuser.TestConfig" />
+		<class name="login_multiuser.MultiUser_Test">
+			<methods>
+				<include name="login_test1" />
+			</methods>
+		</class>
+	</classes>
+</test>
+	<test name="Test6">
+		<parameter name="username" value="TA44"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test7">
+		<parameter name="username" value="TA45"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test8">
+		<parameter name="username" value="TA46"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test9">
+		<parameter name="username" value="TA47"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test10">
+		<parameter name="username" value="TA48"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test11">
+		<parameter name="username" value="TA49"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test12">
+		<parameter name="username" value="TA50"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test13">
+		<parameter name="username" value="TA51"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test14">
+		<parameter name="username" value="TA52"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test15">
+		<parameter name="username" value="TA53"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.TestConfig" />
+			<class name="login_multiuser.MultiUser_Test">
+				<methods>
+					<include name="login_test1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

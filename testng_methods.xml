@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test thread-count="5" name="Test1" parallel="tests">
+		<parameter name="username" value="DASHBOARD"></parameter>
+		<parameter name="password" value="Tigo123!"></parameter>
+		<classes>
+			<class name="login_multiuser.Run_Methods_Parallel"></class>
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Test2" parallel="methods">
+		<parameter name="password" value="Tigo123!"></parameter>
+		<parameter name="username" value="TA41"></parameter>
+		<classes>
+			<class name="login_multiuser.Run_Methods_Parallel"></class>
+		</classes>
+	</test> <!-- Test -->
+	<!-- <test thread-count="5" name="Test1" parallel="methods"> <parameter 
+		name="username" value="TA41"></parameter> <classes> <class name="login_multiuser.Run_Methods_Parallel"></class> 
+		</classes> </test> Test <test thread-count="5" name="Test1" parallel="methods"> 
+		<parameter name="username" value="TA41"></parameter> <classes> <class name="login_multiuser.Run_Methods_Parallel"></class> 
+		</classes> </test> Test <test thread-count="5" name="Test1" parallel="methods"> 
+		<parameter name="username" value="TA41"></parameter> <classes> <class name="login_multiuser.Run_Methods_Parallel"></class> 
+		</classes> </test> Test -->
+</suite> <!-- Suite -->
